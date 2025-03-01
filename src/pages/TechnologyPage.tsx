@@ -28,7 +28,7 @@ const timeline = [
   {
     year: "2020",
     title: "Company Founded",
-    description: "Vtrone established with a vision for sustainable energy"
+    description: "Oai Bank established with a vision for sustainable energy"
   },
   {
     year: "2021",

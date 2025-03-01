@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="relative h-full flex flex-col justify-center items-center text-white px-4">
         <div className="flex items-center mb-8">
           <Zap size={48} className="text-orange-400" />
-          <h1 className="text-5xl md:text-7xl font-bold ml-4">Vtrone</h1>
+          <h1 className="text-5xl md:text-7xl font-bold ml-4">Oai Bank</h1>
         </div>
         
         <p className="text-xl md:text-2xl text-center max-w-2xl mb-12">

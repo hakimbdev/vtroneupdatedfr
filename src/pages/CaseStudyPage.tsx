@@ -21,7 +21,7 @@ const caseStudies = [
     title: "Commercial EV Fleet",
     location: "Lagos, Nigeria",
     challenge: "High operational costs and environmental impact of delivery vehicles",
-    solution: "Electric vehicle fleet powered by Vtrone charging stations",
+    solution: "Electric vehicle fleet powered by Oai Bank charging stations",
     impact: "60% reduction in operating costs, zero emissions",
     image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
   }
