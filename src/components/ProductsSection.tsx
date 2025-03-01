@@ -3,7 +3,6 @@ import React from 'react';
 const services = [
   {
     name: "Voice Banking Account",
-    image: "/assets/voice-banking.png",
     features: [
       "Zero maintenance fee",
       "Voice-activated transfers",
@@ -14,7 +13,6 @@ const services = [
   },
   {
     name: "Digital Savings Account",
-    image: "/assets/savings.png",
     features: [
       "High interest rates",
       "Automated savings",
@@ -24,7 +22,6 @@ const services = [
   },
   {
     name: "Business Account",
-    image: "/assets/business.png",
     features: [
       "Bulk transactions",
       "Voice payment integration",
@@ -34,7 +31,6 @@ const services = [
   },
   {
     name: "Student Account",
-    image: "/assets/student.png",
     features: [
       "Zero fees",
       "Educational savings",
@@ -53,7 +49,6 @@ export default function ProductsSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <img src={service.image} alt={service.name} className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-4">{service.name}</h3>
                 <ul className="space-y-2 mb-6">

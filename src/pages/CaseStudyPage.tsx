@@ -46,7 +46,7 @@ export default function CaseStudyPage() {
                 </div>
                 <div className="p-8">
                   <h2 className="text-2xl font-bold mb-4 text-gray-800">{study.title}</h2>
-                  <p className="text-orange-600 font-medium mb-6">{study.location}</p>
+                  <p className="text-blue-600 font-medium mb-6">{study.location}</p>
                   
                   <div className="space-y-4">
                     <div>

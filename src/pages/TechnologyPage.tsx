@@ -59,7 +59,7 @@ export default function TechnologyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {technologies.map((tech, index) => (
                 <div key={index} className="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                  <tech.icon className="w-12 h-12 text-orange-600 mb-6" />
+                  <tech.icon className="w-12 h-12 text-blue-600 mb-6" />
                   <h3 className="text-2xl font-semibold mb-4 text-gray-800">{tech.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{tech.description}</p>
                 </div>
@@ -70,18 +70,18 @@ export default function TechnologyPage() {
           <section>
             <h2 className="text-3xl font-semibold mb-12 text-center">Innovation Timeline</h2>
             <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-orange-200" />
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200" />
               <div className="space-y-12">
                 {timeline.map((item, index) => (
                   <div key={index} className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                     <div className="w-1/2 pr-8 pl-8">
                       <div className={`bg-white p-6 rounded-xl shadow-lg ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
-                        <div className="text-orange-500 font-bold mb-2">{item.year}</div>
+                        <div className="text-blue-500 font-bold mb-2">{item.year}</div>
                         <h4 className="text-xl font-semibold mb-2">{item.title}</h4>
                         <p className="text-gray-600">{item.description}</p>
                       </div>
                     </div>
-                    <div className="w-4 h-4 bg-orange-500 rounded-full absolute left-1/2 transform -translate-x-1/2" />
+                    <div className="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2" />
                   </div>
                 ))}
               </div>
